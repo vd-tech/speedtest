@@ -1,0 +1,36 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Mallanna", sans-serif, system-ui;
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif, system-ui;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
