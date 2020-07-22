@@ -1,5 +1,5 @@
 {
-  "name": "Speedtest",
+  "name": "speedtest",
   "description": "Speedtest with NodeJS and NextJS",
   "private": false,
   "license": "MIT",
