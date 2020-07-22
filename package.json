@@ -1,0 +1,23 @@
+{
+  "name": "Speedtest",
+  "description": "Speedtest with NodeJS and NextJS",
+  "private": false,
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "gps-distance": "^0.0.4",
+    "next": "latest",
+    "random-bytes": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "request": "^2.88.2"
+  }
+}
